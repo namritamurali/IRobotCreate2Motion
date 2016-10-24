@@ -1,4 +1,7 @@
 # IRobotCreate2Motion
+To establish connection:
+
+Find the usb-serial port connected to the robot (```ls /dev/tty.*```) and in Research/IRobotCreate2/breezycreate2/__init__.py, change the port on line 39 to your port.
 
 To run the robot freely:
 
